@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache and build artifacts
+.cache/
+*.tgz
