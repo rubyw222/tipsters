@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-const App = () => (
-  <div>
-    <h1>Cooksey plate - AFL tipping</h1>
-  </div>
-);
+import App from "./app";
+import Ladder from "./components/ladder";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <>
     <App />
+    <Ladder/>
+  </> 
 );
