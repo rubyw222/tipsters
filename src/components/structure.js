@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, Flex } from 'antd';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 const headerStyle = {
   textAlign: 'center',
